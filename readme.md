@@ -55,7 +55,7 @@ vvp sim_cpu
   - Integer: 16 general-purpose 32-bit registers (3 write ports, 6 read ports)
   - Floating-Point: 16 IEEE 754 32-bit registers
 - **Execution Units:**
-  - ALU: 3x Adders, 3x Subtractors, 3x Multipliers, 3x Dividers, 3x Bitwise Logic units (ready for superscalar dispatch)
+  - ALU: 3x Adders, 3x Subtractors, 3x Multipliers, 3x Dividers, 3x Bitwise Logic units 
   - FPU: Multi-cycle IEEE 754 single-precision (FADD/FSUB: 2 cycles, FMUL: 4 cycles, FDIV: 8 cycles, FNEG/FABS/FCMP: 1 cycle)
 - **Memory & Cache:**
   - Instruction ROM: 2 KB (`rom.hex`)
